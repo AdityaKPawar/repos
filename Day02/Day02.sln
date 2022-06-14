@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02", "Day02.csproj", "{946B0C58-A860-40AE-8F65-5065DC6D7103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0E6AAD6-2D58-4680-99B1-07D9EE7E64DC}"
+	ProjectSection(SolutionItems) = preProject
+		Armstrong1.cs = Armstrong1.cs
+		Assendinf.cs = Assendinf.cs
+		Class1.cs = Class1.cs
+		Class2.cs = Class2.cs
+		Class3.cs = Class3.cs
+		Class4.cs = Class4.cs
+		Class5.cs = Class5.cs
+		Class6.cs = Class6.cs
+		Class7.cs = Class7.cs
+		Class8.cs = Class8.cs
+		Commonfact.cs = Commonfact.cs
+		Coprime.cs = Coprime.cs
+		New.cs = New.cs
+		New1.cs = New1.cs
+		New2.cs = New2.cs
+		Palindrome.cs = Palindrome.cs
+		Practice1.cs = Practice1.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946B0C58-A860-40AE-8F65-5065DC6D7103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946B0C58-A860-40AE-8F65-5065DC6D7103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946B0C58-A860-40AE-8F65-5065DC6D7103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946B0C58-A860-40AE-8F65-5065DC6D7103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8093CD3E-ADFA-482B-8259-C0E323661A9B}
+	EndGlobalSection
+EndGlobal

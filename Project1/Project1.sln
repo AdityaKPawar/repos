@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project1", "Project1.csproj", "{E3FFC5D0-CBAB-4EEF-8F45-2AA9029EDBEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BB103CC-E39D-44F9-8047-76333D4A2A50}"
+	ProjectSection(SolutionItems) = preProject
+		1to10.cs = 1to10.cs
+		Avrage.cs = Avrage.cs
+		Calculator.cs = Calculator.cs
+		Compare3.cs = Compare3.cs
+		Digit.cs = Digit.cs
+		Equalnum.cs = Equalnum.cs
+		Greater5cs.cs = Greater5cs.cs
+		Mul2num.cs = Mul2num.cs
+		Multiple.cs = Multiple.cs
+		name1.cs = name1.cs
+		new1.cs = new1.cs
+		New2.cs = New2.cs
+		new3.cs = new3.cs
+		newproject.cs = newproject.cs
+		OddEven.cs = OddEven.cs
+		sibling.cs = sibling.cs
+		Weekday.cs = Weekday.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3FFC5D0-CBAB-4EEF-8F45-2AA9029EDBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FFC5D0-CBAB-4EEF-8F45-2AA9029EDBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FFC5D0-CBAB-4EEF-8F45-2AA9029EDBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FFC5D0-CBAB-4EEF-8F45-2AA9029EDBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FA45C51-D7EF-43D0-9851-F838FED00533}
+	EndGlobalSection
+EndGlobal
