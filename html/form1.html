@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+function validate(){
+    var data="";
+    data=data+document.getElementById("nk").value;
+    data=data+" "+document.getElementById("addr").value;
+    data=data+" "+document.getElementById("mb1").value;
+
+    var arrgender=document.getElementsByName("A1");
+    for(var i =0;i<arrgender.length;i++){
+        if(arrgender[i].checked)
+        data=data+arrgender[i].value;
+    }
+
+    var arrtech=document.getElementsByName("A2");
+    for(var i =0;i<arrtech.length;i++){
+        if(arrtech[i].checked)
+        data=data+arrtech[i].value;
+    }
+var cityidx=document.getElementById("s1").selectedIndex;
+var city =document.getElementById("s1").options[cityidx].value;
+alert(city);
+    Console.log(data);
+}
+    </script>
+</head>
+<body style="border:2px solid;width: 200px;">
+    <h1>Register Form</h1>
+    <form method="get" action="serv">
+        <label for="fname">Name:</label><br>
+        <input type="text"  name="name"  placeholder="First name" id="nk"><br>
+        <label for="lname">Address:</label><br>
+        <input type="text" name="lname" id="addr"><br><br>
+        <label for="MobNo" name="">MobNo</label><br>
+        <input type="number" name="A1" value="Male" id="mb1"><br>
+       Gender:<br>
+        <input type="radio" name="A1" value="Male" >Male<br>
+        <input type="radio" name="A1" value="FeMale">Female
+        <br>
+        Technical Skill:<br>
+        <input type="checkbox" name="A2" value="Java">Java 
+        <input type="checkbox" name="A2" value="Html">Html <br>
+        <input type="checkbox" name="A2" value="Csharp">Csharp
+        <input type="checkbox" name="A2" value="Python">Python
+        <br><br>
+        City:<select id="s1">
+            <option value="a">Kolhapur</option>
+            <option value="a">Pune</option>
+            <option value="a">Mumbai</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" name="" value="validate" onclick="validate()">
+        <input type="submit" value="Submit">
+      </form> 
+</body>
+</html>

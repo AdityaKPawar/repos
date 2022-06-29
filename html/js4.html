@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+        <script type="text/javascript">
+var str ="sonam";
+console.log(str);
+console.log(str.charAt(0));
+console.log(str.toUpperCase());
+console.log(str.substring(0,3));
+console.log(str.trim());
+console.log(str.replace('i','o'));
+console.log(str);
+
+ var s2="";
+ 
+    for(var j = 0; j < str.length;j++){
+     var ch =str.charAt(j);
+      if(ch=="a"|| ch=="e"||ch=="i"|| ch=="o"||ch=="u"){
+       var ascii=str.charCodeAt(j);
+       ascii++;
+       var c1=String.fromCharCode(ascii);
+       s2=s2+c1;
+      }else{
+       s2=s2+ch;
+      }
+    }
+
+alert("@@@"+s2);
+        </script>
+    </head>
+</html>

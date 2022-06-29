@@ -1,0 +1,88 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Student result</title>
+<script language="javascript" type="text/javascript">
+
+function airthmetic()
+{
+var roll no=document.getElementById('txtnum1').value;
+var name=document.getElementById('txt').value;
+var sub1=document.getElementById('txtnum2').value;
+var sub2=document.getElementById('txtnum3').value;
+var sub3=document.getElementById('txtnum4').value;
+var total=parseInt(sub1)+parseInt(sub2)+parseInt(sub3);
+document.getElementById('txttotal').value=total;
+document.getElementById('txttotal').disabled=true;
+
+var avg=parseInt(total)/3;
+document.getElementById('txttotal1').value=avg;
+document.getElementById('txttotal1').disabled=true;
+}
+
+function clearAll()
+{
+document.getElementById('txtnum1').value="";
+document.getElementById('txt').value="";
+document.getElementById('txtnum2').value="";
+document.getElementById('txtnum3').value="";
+document.getElementById('txtnum4').value="";
+document.getElementById('txttotal').value="";
+document.getElementById('txttotal1').value="";
+document.getElementById('txt').focus();
+}
+
+</script>
+</head>
+<body>
+<table border="1">
+
+<tr>
+<th>roll no</th>
+<td><input type="text" id="txtnum1"/></td>
+</tr>
+
+<tr>
+<th>name</th>
+<td><input type="text" name="txtname" value=""></td>
+</tr>
+
+<tr>
+<th>subject 1</th>
+<td><input type="text" id="txtnum2"/></td>
+</tr>
+
+<tr>
+<th>subject 2</th>
+<td><input type="text" id="txtnum3"/></td>
+</tr>
+
+<tr>
+<th>subject 3</th>
+<td><input type="text" id="txtnum4"/></td>
+</tr>
+
+<tr>
+<th>total</th>
+<td><input type="text" id="txttotal"/></td>
+</tr>
+
+<tr>
+<th>avrage</th>
+<td><input type="text" id="txttotal1"/></td>
+</tr>
+
+<tr>
+<td colspan="2">&nbsp;&nbsp;
+<button type="button" id="btnadd" onclick="airthmatic()">Get Answers</button>&nbsp;&nbsp;
+<button type="button" id="btnclear" onclick="clearAll()">clear</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+

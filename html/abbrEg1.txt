@@ -1,0 +1,50 @@
+<!--abbr -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> </p>
+
+<p>Marking up abbreviations can give useful information to browsers, 
+translation systems and search-engines.</p>
+
+<!--The HTML <q> element defines a short quotation.
+
+Browsers usually insert quotation marks around the <q> element.-->
+
+<p>Good Thought: <q>The best preparation for tomorrow is doing your best today.</q></p>
+
+<p>Browsers usually indent blockquote elements.</p>
+
+<blockquote>
+Kolhapur is a city on the banks of the Panchaganga River, in the west Indian state of Maharashtra. It’s known for its temples, 
+like the ancient Mahalakshmi Temple, a Hindu pilgrimage site. The Bhavani Mandap is an imposing old palace with a small museum
+ displaying stuffed wild animals. Close by, Rankala Lake is surrounded by gardens. The hilltop Jyotiba Temple complex is on the city's 
+outskirts.
+
+</blockquote>
+
+
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Gaonkar Technology.<br> 
+3rd Lane  R'Puri:<br>
+Kolhapur<br>
+416008<br>
+India
+</address>
+
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<img src="images\img1.jpg" width="220" height="277" alt="The Scream">
+<p><cite>Taj Mahal</cite> It was commissioned in 1632 by the Mughal emperor, Shah Jahan, .</p>
+
+
+<p>Do not forget to study <mark>HTML5 and CSS</mark> today.</p>
+
+
+</body>
+</html>

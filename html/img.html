@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript">
+            function f1()
+            {
+                document.getElementById("im1").src="images\lake.jpg";
+            }
+            function f2()
+            {
+                document.getElementById("hh").innerHTML="aditya";
+            }
+            
+        </script>
+
+    </head>
+    <body>
+        <h1 style="background-color: red;" onclick="this.style.border='10px blue dotted'">online js tutorials</h1>
+        <img src="images\Palace.jpg" height="200" width="200" onclick="this.src='images\lake.jpg'">
+        <img src="images\lake.jpg" height="200" width="200" id="im1" onclick="f1()">
+        <h1 id="hh" onclick="f2()">Pawar</h1>
+
+    </body>
+</html>

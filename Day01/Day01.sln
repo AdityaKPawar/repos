@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "Day01.csproj", "{8022DB3F-D24D-4F65-92C6-74543746EE7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{390EF2A5-3413-443C-94BD-736E87C55AA3}"
+	ProjectSection(SolutionItems) = preProject
+		Avrage.cs = Avrage.cs
+		Class1.cs = Class1.cs
+		Class2.cs = Class2.cs
+		Class3.cs = Class3.cs
+		Dividing.cs = Dividing.cs
+		Equal.cs = Equal.cs
+		FirstDiv.cs = FirstDiv.cs
+		Leap.cs = Leap.cs
+		Max.cs = Max.cs
+		Positive.cs = Positive.cs
+		PostIncreament.cs = PostIncreament.cs
+		Subject.cs = Subject.cs
+		Vowel.cs = Vowel.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8022DB3F-D24D-4F65-92C6-74543746EE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8022DB3F-D24D-4F65-92C6-74543746EE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8022DB3F-D24D-4F65-92C6-74543746EE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8022DB3F-D24D-4F65-92C6-74543746EE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {515D3938-92BC-4BC8-B5A6-4C43A81B2AC9}
+	EndGlobalSection
+EndGlobal
